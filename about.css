@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar-nav {
+
+    margin-left: auto;
+}
+
+.navbar-text {
+    margin-left: 20px;
+}
+
+.navbar-text i {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #2d2b2b;
+    cursor: pointer;
+}
+
+#navbar-one {
+    border-bottom: 1px solid #ccc;
+    box-shadow: 6px 4px 5px rgba(221, 221, 221, 0.9);
+   
+
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#navbarText ul li a {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2d2b2b;
+    transition: 0.5s ease-in;
+}
+#navbarText ul li a:hover {
+    color:rgb(139, 139, 207) ;
+    transform: translatey(-10px);
+}
+/* SECTION 2 */
+.second-sec img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+/* section-3 */
+.section-one h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+/* fourth sec */
+.section-four h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-four p{
+    text-align: justify;
+}
+.section-four h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+/* fifth sec */
+.ftoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    gap:40px;
+}
+li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+footer{
+    box-shadow: 5px 5px 10px rgba(22, 22, 22, 0.8);
+}
